@@ -1,6 +1,9 @@
 name = "cloudflare-ip-loggerr"
 type = "javascript"
 
+[build]
+pages_build_output_dir = "./"  # Required for Pages
+
 [env.production]
 kv_namespaces = [
   { binding = "IP_LOGGER", id = "ip-loggerrr" }
