@@ -1,0 +1,7 @@
+name = "cloudflare-ip-loggerr"
+type = "javascript"
+
+[env.production]
+kv_namespaces = [
+  { binding = "IP_LOGGER", id = "ip-loggerrr" }
+]
